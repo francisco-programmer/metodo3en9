@@ -1,6 +1,7 @@
 import React from 'react'
 import {MdKeyboardArrowRight } from 'react-icons/md'
 import wave from '../../../assets/wave.png'
+import hotlink from './Hotlink'
 
 const Recursos = () => {
   return (
@@ -281,7 +282,7 @@ const Recursos = () => {
         <p className='font-poppins text-center lg:px-36 px-5 lg:text-4xl text-xl text-gray-200'>ESTA BIBLIOTECA <strong>ES SOLO UNA VISTA FRACCIONADA</strong> DE TODOS <strong>LOS RECURSOS</strong> DISPONIBLES QUE TIENES DENTRO DEL <strong>"MÉTODO 3 EN 9"</strong></p>
      <div className='flex justify-center py-10'>
 
-     <button className='bg-redventa hover:animate-bounce text-gray-200 py-2 font-bold  rounded-full px-5  text-xl lg:text-3xl hover:bg-yellow-500 hover:text-gray-900 shadow-sm shadow-gray-700'>Quiero unirme al Metodo 3 en 9 </button>
+     <button className='bg-redventa hover:animate-bounce text-gray-200 py-2 font-bold  rounded-full px-5  text-xl lg:text-3xl hover:bg-yellow-500 hover:text-gray-900 shadow-sm shadow-gray-700' onClick={hotlink}>Quiero unirme al Metodo 3 en 9 </button>
      </div>
       </div>
       

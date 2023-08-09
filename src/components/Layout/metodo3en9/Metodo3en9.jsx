@@ -4,14 +4,13 @@ import {MdComputer} from 'react-icons/md'
 import {BsFillJournalBookmarkFill, BsBuildingsFill} from 'react-icons/bs'
 import {BiRun} from 'react-icons/bi'
 import wavegris from '../../../assets/wavegris.svg'
+import hotlink from './Hotlink'
 
 
 import {BiUserCheck} from 'react-icons/bi'
 const metodo3en9 = () => {
 
-  const hotlink = () => {
-    window.open("https://go.hotmart.com/F82923352C?ap=acab", "")
-  }
+
 
   return (
     <div>

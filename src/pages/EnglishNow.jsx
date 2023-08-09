@@ -6,6 +6,8 @@ import Recursos from '../components/Layout/metodo3en9/Recursos'
 import Metodologia from '../components/Layout/metodo3en9/Metodologia'
 import Bonos from '../components/Layout/metodo3en9/Bonos'
 
+import Satisfaccion from '../components/Layout/metodo3en9/Satisfaccion'
+
 const EnglishNow = () => {
     document.title = "Desafio Bilingüe Metodo 3 en 9"
   return (
@@ -16,6 +18,7 @@ const EnglishNow = () => {
         <Recursos />
         <Metodologia />
         <Bonos />
+        <Satisfaccion />
     </div>
   )
 }

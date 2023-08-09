@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaCheck} from 'react-icons/fa'
 import {BsFillCartCheckFill} from 'react-icons/bs'
+import hotlink from './Hotlink'
 const Bonos = () => {
   return (
     <div>
@@ -22,7 +23,7 @@ const Bonos = () => {
             BONUS #1
           </p>
 
-          <div className="grid lg:grid-cols-2  grid-cols-1 p-5">
+          <div className="grid lg:grid-cols-2  grid-cols-1 lg:p-5">
             <div className="flex flex-col gap-4">
               <p className="text-moradovivo lg:text-3xl text-xl font-poppins font-bold">
                 Acceso al "International training english exam"{" "}
@@ -81,7 +82,7 @@ const Bonos = () => {
               <p className="font-poppins text-redventa font-bold  text-3xl line-through ">
                 $149 USD{" "}
               </p>
-              <p className="font-poppins text-2xl text-center">
+              <p className="font-poppins text-2xl text-center lg:p-0 p-5" >
                 Al ser parte del "Método 3 en 9", lo tienes{" "}
                 <strong>¡GRATIS!</strong>{" "}
               </p>
@@ -97,7 +98,7 @@ const Bonos = () => {
             BONUS #2
           </p>
 
-          <div className="grid lg:grid-cols-2  grid-cols-1 p-5">
+          <div className="grid lg:grid-cols-2  grid-cols-1 lg:p-5">
             <div className="flex flex-col gap-4">
               <p className="text-moradovivo lg:text-3xl text-xl font-poppins font-bold">
                 Acceso al "Fifty days challenge"
@@ -171,7 +172,7 @@ const Bonos = () => {
             BONUS #3
           </p>
 
-          <div className="grid lg:grid-cols-2  grid-cols-1 p-5">
+          <div className="grid lg:grid-cols-2  grid-cols-1 lg:p-5">
             <div className="flex flex-col gap-4">
               <p className="text-moradovivo lg:text-3xl text-xl font-poppins font-bold">
                 Acceso al "Job Interview Workshop"
@@ -245,7 +246,7 @@ const Bonos = () => {
             BONUS #4
           </p>
 
-          <div className="grid lg:grid-cols-2  grid-cols-1 p-5">
+          <div className="grid lg:grid-cols-2  grid-cols-1 lg:p-5">
             <div className="flex flex-col gap-4">
               <p className="text-moradovivo lg:text-3xl text-xl font-poppins font-bold">
                 Acceso al "Plan de Mineria avazanda"
@@ -313,7 +314,7 @@ const Bonos = () => {
             BONUS #5
           </p>
 
-          <div className="grid lg:grid-cols-2  grid-cols-1 p-5">
+          <div className="grid lg:grid-cols-2  grid-cols-1 lg:p-5">
             <div className="flex flex-col gap-4">
               <p className="text-moradovivo lg:text-3xl text-xl font-poppins font-bold">
                 Acceso al programa online "Drive listening de cero a pro"
@@ -381,7 +382,7 @@ const Bonos = () => {
 
       {/* bono 6 */}
       <div className="lg:px-36 mb-2">
-        <div className="bg-gray-200 p-5 border-4 border-redventa rounded-xl">
+        <div className="bg-gray-200 lg:p-5 border-4 border-redventa rounded-xl">
           <p className="bg-redventa text-center text-gray-200 font-poppins font-bold py-4 text-3xl">
             BONUS #6
           </p>
@@ -474,7 +475,7 @@ const Bonos = () => {
             />
           </div>
 
-          <div className="grid lg:grid-cols-2  grid-cols-1 p-5">
+          <div className="grid lg:grid-cols-2  grid-cols-1 ">
             <div className="flex flex-col gap-4">
               <div>
                 <div className="flex flex-col gap-5">
@@ -573,8 +574,11 @@ const Bonos = () => {
               <p className="font-poppins text-2xl text-center">
               Solo hasta el <strong>viernes a medianoche:</strong>
               </p>
-              <p className='font-poppins font-bold text-green-700 text-7xl'>$250</p>
-              <button className='flex gap-4 text-2xl  rounded-full bg-green-500 font-poppins font-bold  text-gray-200 px-20 py-5'><div><BsFillCartCheckFill /></div> Comprar Ahora! </button>
+              <p className='font-poppins font-bold text-green-500 text-7xl'>$250</p>
+              <div>
+
+              <button className='flex lg:gap-4 gap-1 lg:text-2xl px-14 items-center rounded-full bg-green-700 font-poppins font-bold  text-gray-200 lg:px-20 py-5' onClick={hotlink}><div><BsFillCartCheckFill /></div> Comprar Ahora! </button>
+              </div>
             </div>
           </div>
         </div>

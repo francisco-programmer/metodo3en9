@@ -18,12 +18,11 @@ import ProgressBar from './ProgressBar'
 import Satisfaccion from './Satisfaccion'
 import Preguntas from './Preguntas'
 import VideoPrincipal from './VideoPrincipal'
+import hotlink from './Hotlink'
 
 const Presentation = () => {
 
-  const hotlink = () => {
-    window.open("https://go.hotmart.com/F82923352C?ap=acab", "")
-  }
+ 
 
   return (
     <div className="mt-20">
