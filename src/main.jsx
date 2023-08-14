@@ -9,6 +9,7 @@ import {
 import EnglishNow from './pages/EnglishNow.jsx';
 import DecoracionDeFiestas from './pages/DecoracionDeFiestas.jsx';
 import DeCeroTuPrimerEmpleo from './pages/DeCeroTuPrimerEmpleo.jsx';
+import DesafioBilingue from './pages/DesafioBilingue.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,8 +18,8 @@ const router = createBrowserRouter([
   }, 
 
 {
-  path:"decoracion-de-fiestas",
-  element: <DecoracionDeFiestas />
+  path:"desafiobilingue",
+  element: <DesafioBilingue/>
 },
 {
   path:"de-cero-a-tu-primer-empleo-en-ingles",
