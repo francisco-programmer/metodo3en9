@@ -34,7 +34,7 @@ const Informacion = (props) => {
       
       </ol>
       <div className='pb-10 flex justify-center'>
-         <button onClick={() => window.open('https://wa.link/03wc86', '')}> <img src={buton} alt="" /></button>
+         <button onClick={() => window.open('https://wa.link/lz0cbk', '')}> <img src={buton} alt="" /></button>
        </div>
       </div>
       </div>
